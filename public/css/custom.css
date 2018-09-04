@@ -1,0 +1,389 @@
+body {
+	background-color: #fff;
+	color: #151718;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+a {
+	text-decoration: none;
+	color: #151718;
+}
+a:hover {
+	text-decoration: none;
+	color: #151718;
+}
+.clearBoth {
+	clear: both;
+}
+.main-navigation {
+	width: 100%;
+	padding: 30px;
+	line-height: 105px;
+}
+.category-links {
+	float: left;
+	width: 33.3333%;
+	text-align: left;
+}
+.category-links a {
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+.logo {
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+}
+.logo a h1 {
+	font-size: 4em;
+	text-decoration: none;
+	font-weight: bold;
+}
+.cart-and-user {
+	float: right;
+	width: 33.3333%;
+	text-align: right;
+}
+.cart-and-user a, .cart-and-user button {
+	margin-right: 30px;
+	display: inline-block;
+	font-size: 1.4em;
+	border: 0;
+	background-color: #fff;
+	text-decoration: none;
+}
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.2);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+	opacity: 0.5;
+	display: none;
+}
+.display-user-routes {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 300px;
+	z-index: 20;
+	background-color: #fff;
+	padding: 30px;
+	opacity: 1;
+	display: none;
+	margin-right: -300px;
+}
+.display-user-routes p {
+	margin: 40px 0px;
+	text-align: center;
+}
+.display-user-routes a {
+	text-align: center;
+	display: block;
+	border: 1px solid #151718;
+	margin: 20px 0px;
+	font-size: 1.4em;
+	padding: 20px 10px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+.display-user-routes a:hover {
+	background-color: #151718;
+	color: #fff;
+}
+.display-user-routes .close-btn {
+	text-align: right;
+	font-size: 1.5em;
+	font-weight: bold;
+	cursor: pointer;
+}
+.fade {
+	opacity: 1;
+	margin: 25px 0px 50px 0px;
+	overflow: hidden;
+	padding: 100px;
+}
+.fade a {
+	display: block;
+}
+.fade h3 {
+	font-weight: bold;
+}
+.fade .sizes {
+	margin: 20px 0px 0px 0px;
+}
+.fade .sizes span {
+	margin-right: 10px;
+	font-size: 1.3em;
+}
+.fade .price {
+	margin: 0px 0px 20px 0px;
+	font-size: 1.3em;
+}
+.fade img {
+	width: 100%;
+	height: 500px;
+	object-fit: contain;
+	margin: 100px 0 0 0;
+}
+.show-sizes-and-name {
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+a:hover .show-sizes-and-name {
+	opacity: 1;
+}
+.search { 
+	padding: 50px 45px 50px 45px;
+}
+.search form input[type="search"] {
+	border: none;
+	font-size: 1.8em;
+	padding: 10px 25px;
+	border-bottom: 2px solid #151718;
+	padding-bottom: 12px;
+	width: 40%;
+}
+.search form input[type="search"]:focus {
+	outline: none;
+	padding-bottom: 10px;
+	border-bottom: 4px solid #151718;
+	width: 50%;	
+	transition: all 0.2s ease-in-out;
+} 
+.search form button {
+	border: none;
+	font-size: 1.5em;
+	background-color: #fff;
+	padding: 10px 10px 10px 5px;
+}
+.social-links {
+	text-align: right;
+	font-size: 1.5em;
+}
+.social-links i {
+	padding-top: 10px;
+	margin-left: 25px;
+}
+
+footer {
+	padding: 100px 30px;
+}
+footer a {
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.4em;
+	margin-right: 30px;
+}
+.page {
+	font-size: 1.3em;
+}
+.page h2 {
+	margin: 50px 0px;
+	font-weight: bold;
+}
+.category-name h3 {
+	margin-top: 50px;
+	font-weight: bold;
+}
+.pagination > li > a, .pagination > li > span {
+	border: 1px solid #151718;
+	color: #151718;
+	font-size: 1.3em;
+}
+.pagination > li > a:hover, .pagination > li > span:hover {
+	color: #fff;
+	background-color: #151718;
+	border: 1px solid #151718;
+}
+.pagination > li.active > span	{
+	border: 1px solid #151718;
+	background-color: #151718;
+	color: #fff;
+}
+.product-image {
+	padding: 30px 60px;
+}
+.product-image img {
+	width: 80%;
+}
+.product-description {
+	padding: 30px 60px;
+}
+.product-description h3 {
+	font-weight: bold;
+}
+.product-description p {
+	margin: 25px 0px;
+}
+.product-description form label {
+	font-size: 1.5em;
+	display: block;
+	padding-bottom: 10px;
+}
+.product-description form select {
+	font-size: 1.5em;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #151718;
+	background-color: #fff;
+	padding: 10px 20px;
+}
+.product-description form select:focus {
+	outline: 2px solid #161718;
+}
+.product-description form button {
+	border: 2px solid #151718;
+	background-color: #fff;
+	font-size: 1.5em;
+	padding: 10px 25px;
+	color: #151718;
+	margin: 20px 0px;
+	transition: all 0.3s ease-in-out;
+}
+.product-description form button:hover {
+	color: #fff;
+	background-color: #151718;
+}
+.user-dashboard p {
+	margin: 50px 0px;
+}
+.user-dashboard h3 {
+	margin-top: 50px; 
+}
+.user-dashboard .register form {
+	margin-top: -30px;	 
+} 
+.cart {
+	margin: 100px 60px;
+}
+.cart table tr th {
+	font-size: 1.3em;
+	padding: 20px 10px;
+}
+.cart table tr td {
+	font-size: 1.2em;
+}
+.cart .table {
+  border: 1px solid #151718;
+}
+.cart .table > tbody + tbody, 
+.cart .table-bordered > thead > tr > th,
+.cart .table-bordered > tbody > tr > th,
+.cart .table-bordered > tfoot > tr > th,
+.cart .table-bordered > thead > tr > td,
+.cart .table-bordered > tbody > tr > td,
+.cart .table-bordered > tfoot > tr > td {
+   border: 1px solid #151718;
+}
+.empty-cart {
+	border: 1px solid #151718;
+	padding: 5px 10px;
+	transition: all 0.2s ease-in-out;
+}
+.empty-cart:hover {
+	background-color: #151718;
+	color: #fff;
+}
+.add-quantity-form input {
+	border: 2px solid #a4a4a5;
+	padding: 0px 10px;
+	width: 50%;
+}	
+.add-quantity-form button {
+	border: none;
+	font-size: 1.2em;
+	background-color: #fff;
+}
+.payment-buttons a {
+	margin: 0px 20px;
+	font-size: 1.2em;
+	border: 2px solid #151718;
+	padding: 10px 15px;
+	transition: all 0.2s ease-in-out;
+}
+.payment-buttons a:hover {
+	color: #fff;
+	background-color: #151718;
+}
+
+
+@media screen and (max-width: 992px) {
+	.main-navigation {
+		padding: 20px;
+	}
+	.category-links {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.category-links a {
+		margin-left: 10px;
+	}
+	.logo {
+		float: none;
+		width: 100%;
+	}
+	.cart-and-user {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.cart-and-user a, .cart-and-user button {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	.search { 
+		padding: 10px 20px 30px 20px;
+		text-align: center;
+	}
+	.search form input[type="search"] {
+		width: 70%;
+		padding: 10px ;
+	}
+	.search form input[type="search"]:focus {
+		width: 80%;	
+	}  
+	.social-links {
+		text-align: center;
+		margin-top: 50px;
+	}
+	.social-links i {
+		padding-top: 20px;
+		margin-right: 15px;
+	}
+	.fade {
+		padding: 50px;
+	}
+	.fade .price {
+		margin: 0px 0px 0px 0px;
+	}
+	.fade img {
+		margin: 0 0 0 0;
+	}
+	.show-sizes-and-name {
+		opacity: 1;
+	}
+	footer {
+		padding: 30px;
+	}
+	footer a {
+		margin-right: 10px;
+	}
+	.payment-buttons a {
+		margin: 20px 0px;
+	}
+	.cart {
+		margin: 50px 0px;
+	}
+	.add-quantity-form input {
+		width: 45%;
+	}	
+}
